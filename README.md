@@ -76,6 +76,22 @@ app/
 | UI Framework | Material Design Components |
 | Emulator Disarankan | Pixel 6 API 30 |
 
+
+==
+Storyboard:https://www.figma.com/design/zwnAIHrr9yiHcJ57vAHFcR/Mockup?node-id=43-2&p=f&t=iNnDf95PpVGLppqW-0
+<img width="2864" height="1956" alt="image" src="https://github.com/user-attachments/assets/c7a69f65-a067-4c4e-9467-94bb74a65da4" />
+
+Mockup: https://www.figma.com/design/zwnAIHrr9yiHcJ57vAHFcR/Mockup?node-id=100-96&p=f&t=iNnDf95PpVGLppqW-0
+<img width="2864" height="1956" alt="image" src="https://github.com/user-attachments/assets/425539c8-0d3f-4b86-ad53-91369ef0b6c0" />
+
+UI: https://www.figma.com/design/zwnAIHrr9yiHcJ57vAHFcR/Mockup?node-id=37-129&p=f&t=iNnDf95PpVGLppqW-0
+<img width="2864" height="1956" alt="image" src="https://github.com/user-attachments/assets/602ffbb3-be2c-4898-866e-c635b0da3e69" />
+
+UX:https://www.figma.com/design/zwnAIHrr9yiHcJ57vAHFcR/Mockup?node-id=71-2&p=f&t=iNnDf95PpVGLppqW-0
+<img width="12142" height="4156" alt="image" src="https://github.com/user-attachments/assets/cf55554f-687a-4bb9-97fb-9aa6b8349e76" />
+
+==
+
 🧩 Rencana Pengembangan Berikutnya
 ==
  -Halaman utama dengan daftar tugas (RecyclerView)
@@ -84,10 +100,4 @@ app/
  -Filter tugas berdasarkan status (aktif / selesai) 
  -Animasi transisi antar halaman
  -Penyesuaian bahasa otomatis di seluruh aplikasi
-==
-
-
-
-Proyek ini menggunakan lisensi MIT.
-Silakan digunakan, dipelajari, dan dikembangkan untuk keperluan pribadi maupun pembelajaran.
 ==
