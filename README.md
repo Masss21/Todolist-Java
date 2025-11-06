@@ -1,29 +1,31 @@
-📝 Todolist (Android - Java)
+# 📝 Todolist (Android - Java)
 
-📱 **Todolist** adalah aplikasi Android sederhana yang sedang dikembangkan menggunakan **Java** dan **Android Studio**.  
-Tujuan akhirnya adalah membangun aplikasi **ToDo List** dengan fitur **CRUD (Create, Read, Update, Delete)** yang memiliki dukungan **multibahasa dan tampilan dinamis**.
+**Todolist** adalah aplikasi Android sederhana yang sedang dikembangkan menggunakan **Java** dan **Android Studio**.  
+Tujuan utama proyek ini adalah membangun aplikasi **ToDo List** dengan fitur **CRUD (Create, Read, Update, Delete)**, dukungan **multibahasa**, serta **tampilan dinamis** berbasis Material Design.
 
 ---
 
-🚧 Status Pengembangan
+## 🚧 Status Pengembangan
 
-Versi saat ini masih dalam tahap awal:
+> Versi saat ini masih dalam tahap awal (prototype splash screen dan struktur dasar).
 
-- [x] Splash Screen tampil dengan bendera & teks “Halo” sesuai bahasa perangkat  
-- [x] Deteksi otomatis bahasa & negara (contoh: 🇨🇦 Kanada, 🇫🇷 Prancis, 🇮🇹 Italia, 🇩🇪 Jerman, 🇺🇸 AS)  
-- [x] Navigasi dari splash ke halaman utama  
-- [ ] Halaman utama untuk menampilkan daftar tugas  
-- [ ] CRUD tugas (Tambah, Edit, Hapus, Tandai Selesai)  
-- [ ] Penyimpanan lokal (Room / SQLite)  
-- [ ] Tema gelap & terang  
-- [ ] Notifikasi pengingat tugas  
+| Fitur | Status |
+|-------|---------|
+| Splash Screen dengan bendera & teks “Halo” sesuai bahasa perangkat | ✅ Selesai |
+| Deteksi otomatis bahasa & negara (🇨🇦 🇫🇷 🇮🇹 🇩🇪 🇺🇸) | ✅ Selesai |
+| Navigasi dari splash ke halaman utama | ✅ Selesai |
+| Halaman utama (daftar tugas) | 🔄 Dalam Pengembangan |
+| CRUD Tugas (Tambah, Edit, Hapus, Tandai Selesai) | ⏳ Belum |
+| Penyimpanan Lokal (Room / SQLite) | ⏳ Belum |
+| Tema Gelap & Terang | ⏳ Belum |
+| Notifikasi Pengingat | ⏳ Belum |
 
 ---
 
 ## 🌍 Dukungan Bahasa & Negara
 
-| Bahasa | Negara | Teks | Bendera |
-|--------|---------|------|---------|
+| Bahasa | Negara | Teks Sapaan | Bendera |
+|--------|---------|--------------|----------|
 | Inggris | Amerika Serikat | Hello | 🇺🇸 |
 | Inggris | Kanada | Hello | 🇨🇦 |
 | Prancis | Prancis | Bonjour | 🇫🇷 |
@@ -31,13 +33,15 @@ Versi saat ini masih dalam tahap awal:
 | Italia | Italia | Ciao | 🇮🇹 |
 | Jerman | Jerman | Hallo | 🇩🇪 |
 
+---
 
-## 🧱 Project Structure
+## 🧱 Struktur Proyek
 
 app/
 ├─ java/com/example/todolist/
 │ ├─ SplashActivity.java
 │ └─ MainActivity.java
+│
 ├─ res/
 │ ├─ drawable/
 │ │ ├─ flag_id.png
@@ -58,9 +62,9 @@ app/
 │ ├─ values-fr/
 │ ├─ values-de/
 │ └─ layout/
-│ ├─ splash_screen.xml
+│ ├─ activity_splash.xml
 │ └─ activity_main.xml
-│ └─ activity_splash.xml
+
 
 
 ---
@@ -74,22 +78,29 @@ app/
 | Minimum SDK | 24 |
 | Target SDK | 34 |
 | UI Framework | Material Design Components |
-| Emulator Disarankan | Pixel 6 API 30 |
+| Emulator Disarankan | Pixel 6 (API 30) |
 
+---
 
+## 🎨 Desain & Dokumentasi UI/UX
 
- -Storyboard:https://www.figma.com/design/zwnAIHrr9yiHcJ57vAHFcR/Mockup?node-id=43-2&p=f&t=iNnDf95PpVGLppqW-0
- -Mockup: https://www.figma.com/design/zwnAIHrr9yiHcJ57vAHFcR/Mockup?node-id=100-96&p=f&t=iNnDf95PpVGLppqW-0
- -UI: https://www.figma.com/design/zwnAIHrr9yiHcJ57vAHFcR/Mockup?node-id=37-129&p=f&t=iNnDf95PpVGLppqW-0
- -UX:https://www.figma.com/design/zwnAIHrr9yiHcJ57vAHFcR/Mockup?node-id=71-2&p=f&t=iNnDf95PpVGLppqW-0
-==
+| Jenis | Deskripsi | Link |
+|-------|------------|------|
+| 🧭 **Storyboard** | Alur logika interaksi antar layar (navigasi pengguna) | [Lihat di Figma](https://www.figma.com/design/zwnAIHrr9yiHcJ57vAHFcR/Mockup?node-id=43-2&p=f&t=iNnDf95PpVGLppqW-0) |
+| 🎨 **Mockup** | Tampilan visual awal sebelum implementasi di Android Studio | [Lihat di Figma](https://www.figma.com/design/zwnAIHrr9yiHcJ57vAHFcR/Mockup?node-id=100-96&p=f&t=iNnDf95PpVGLppqW-0) |
+| 🧱 **UI (User Interface)** | Tampilan antarmuka pengguna (hasil nyata di aplikasi) | [Lihat di Figma](https://www.figma.com/design/zwnAIHrr9yiHcJ57vAHFcR/Mockup?node-id=37-129&p=f&t=iNnDf95PpVGLppqW-0) |
+| 🧩 **UX (User Experience)** | Alur pengalaman dan interaksi pengguna | [Lihat di Figma](https://www.figma.com/design/zwnAIHrr9yiHcJ57vAHFcR/Mockup?node-id=71-2&p=f&t=iNnDf95PpVGLppqW-0) |
 
-🧩 Rencana Pengembangan Berikutnya
-==
- -Halaman utama dengan daftar tugas (RecyclerView)
- -Fungsi tambah / ubah / hapus tugas
- -Penyimpanan dengan Room Database
- -Filter tugas berdasarkan status (aktif / selesai) 
- -Animasi transisi antar halaman
- -Penyesuaian bahasa otomatis di seluruh aplikasi
-==
+---
+
+## 🔮 Rencana Pengembangan Berikutnya
+
+- [ ] Halaman utama dengan daftar tugas (RecyclerView Grid 2 kolom)
+- [ ] Fitur Tambah / Ubah / Hapus tugas
+- [ ] Penyimpanan menggunakan **Room Database**
+- [ ] Filter tugas berdasarkan status (aktif / selesai)
+- [ ] Animasi transisi antar halaman
+- [ ] Penyesuaian bahasa otomatis di seluruh aplikasi
+- [ ] Mode **gelap & terang** dinamis
+- [ ] Notifikasi pengingat harian
+
