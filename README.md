@@ -36,7 +36,7 @@ Tujuan utama proyek ini adalah membangun aplikasi **ToDo List** dengan fitur **C
 ---
 
 ## 🧱 Struktur Proyek
-
+```
 app/
 ├─ java/com/example/todolist/
 │ ├─ SplashActivity.java
@@ -64,7 +64,7 @@ app/
 │ └─ layout/
 │ ├─ activity_splash.xml
 │ └─ activity_main.xml
-
+```
 
 
 ---
