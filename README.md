@@ -77,11 +77,11 @@ app/
 | Emulator Disarankan | Pixel 6 API 30 |
 
 
-==
-Storyboard:https://www.figma.com/design/zwnAIHrr9yiHcJ57vAHFcR/Mockup?node-id=43-2&p=f&t=iNnDf95PpVGLppqW-0
-Mockup: https://www.figma.com/design/zwnAIHrr9yiHcJ57vAHFcR/Mockup?node-id=100-96&p=f&t=iNnDf95PpVGLppqW-0
-UI: https://www.figma.com/design/zwnAIHrr9yiHcJ57vAHFcR/Mockup?node-id=37-129&p=f&t=iNnDf95PpVGLppqW-0
-UX:https://www.figma.com/design/zwnAIHrr9yiHcJ57vAHFcR/Mockup?node-id=71-2&p=f&t=iNnDf95PpVGLppqW-0
+
+ -Storyboard:https://www.figma.com/design/zwnAIHrr9yiHcJ57vAHFcR/Mockup?node-id=43-2&p=f&t=iNnDf95PpVGLppqW-0
+ -Mockup: https://www.figma.com/design/zwnAIHrr9yiHcJ57vAHFcR/Mockup?node-id=100-96&p=f&t=iNnDf95PpVGLppqW-0
+ -UI: https://www.figma.com/design/zwnAIHrr9yiHcJ57vAHFcR/Mockup?node-id=37-129&p=f&t=iNnDf95PpVGLppqW-0
+ -UX:https://www.figma.com/design/zwnAIHrr9yiHcJ57vAHFcR/Mockup?node-id=71-2&p=f&t=iNnDf95PpVGLppqW-0
 ==
 
 🧩 Rencana Pengembangan Berikutnya
