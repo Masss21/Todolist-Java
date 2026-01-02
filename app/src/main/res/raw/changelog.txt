@@ -1,0 +1,7 @@
+v1.2.0
+- Added Dark Mode
+- Improved grid layout
+- Fixed minor bugs
+
+v1.1.0
+- Added Edit Task feature

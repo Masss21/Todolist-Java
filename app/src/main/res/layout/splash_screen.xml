@@ -20,5 +20,13 @@
         android:textSize="28sp"
         android:textStyle="bold"
         android:layout_marginTop="16dp" />
+    <TextView
+        android:id="@+id/tvVersion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="12sp"
+        android:layout_marginTop="8dp"
+        android:textColor="?android:attr/textColorSecondary" />
 
 </LinearLayout>

@@ -1,0 +1,57 @@
+pengingat notifikasi
+Swipe Actions (Geser untuk Hapus / Edit)
+Drag & Drop untuk Mengurutkan Task
+Priority Level (High / Medium / Low)
+Color Label / Tag
+🔴 High
+🟠 Medium
+🟢 Low
+Task bisa diberi warna:
+Biru → pekerjaan
+Hijau → pribadi
+Kuning → penting
+Merah → urgent
+Sort & Filter
+
+7. Tambahkan menu kecil (3 titik) berisi:
+Sort by A–Z
+Sort by latest
+Filter by completed / uncompleted
+Filter by priority
+
+8. Recycle Bin untuk task
+
+9. Mode Grid / List Toggle
+
+Sudah kamu rencanakan sebelumnya seperti "tab Chrome".
+Bisa tambahkan tombol untuk ganti tampilan:
+🔳 Grid 2 kolom
+📋 List biasa
+
+10. Backup & Restore (Local)
+Backup database Room ke file .json atau .db
+Restore dari file.
+Cocok buat pengguna yang ganti HP.
+
+11. Dark Mode Tema Kustom
+Saat ini dark/light sudah ada.
+Bisa ditambah:
+AMOLED Black (hitam total)
+Pastel theme
+Sunset theme
+Forest theme
+
+12. . Cloud Sync (Level Lanjut)
+Integrasi login dan sinkronisasi:
+Google Sign-in
+Firebase
+Supabase
+
+14. 🔥 Fitur Unik (Jika ingin beda dari TodoList biasa)
+⭐ Smart Suggestion
+Saat user menulis “Belajar UTS”, app otomatis menawarkan:
+Tambah prioritas "Penting"
+Atur deadline
+Tambah subtasks
+⭐ AI Summary (Nanti bisa implementasi sederhana)
+Merangkum jumlah task hari ini, yang selesai, dan yang urgent.

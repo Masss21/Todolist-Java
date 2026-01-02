@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <resources>
+
+        <!-- App -->
+        <string name="app_name">ToDoList</string>
+        <string name="hello">Halo</string>
+        <string name="hello_localized">Halo</string>
+        <string name="country_name">Indonesia</string>
+
+        <!-- Dialog Titles -->
+        <string name="dialog_add_title">Tambah Tugas Baru</string>
+        <string name="dialog_edit_title">Edit Tugas</string>
+
+        <!-- Buttons -->
+        <string name="btn_save">Simpan</string>
+        <string name="btn_update">Perbarui</string>
+        <string name="btn_cancel">Batal</string>
+
+        <!-- Input Hints -->
+        <string name="hint_title">Judul Tugas</string>
+        <string name="hint_description">Deskripsi</string>
+
+        <!-- Date & Time -->
+        <string name="label_due_date">Tanggal Tenggat</string>
+        <string name="btn_pick_date">Pilih Tanggal &amp; Waktu</string>
+
+        <!-- Status -->
+        <string name="label_status">Status</string>
+        <string name="status_todo">Belum Dikerjakan</string>
+        <string name="status_progress">Sedang Dikerjakan</string>
+        <string name="status_complete">Selesai</string>
+
+        <string name="no_date">Tanggal belum dipilih</string>
+        <string name="pick_date">Pilih Tanggal</string>
+
+        <!-- Empty states -->
+        <string name="empty_tasks">Belum ada tugas.\nTekan + untuk menambahkan!</string>
+        <string name="empty_recycle_bin">Tempat sampah kosong</string>
+
+        <!-- Search -->
+        <string name="search_hint">Cari tugas...</string>
+
+        <string name="hint_new_task">Tambah Tugas Baru</string>
+
+
+    <!-- ===================== -->
+    <!-- SORT DROPDOWN (RECYCLE BIN) -->
+    <!-- ===================== -->
+    <string name="sort_default">Default</string>
+    <string name="sort_az">Urutkan A-Z</string>
+    <string name="sort_za">Urutkan Z-A</string>
+    <string name="sort_created_date">Urutkan berdasarkan Tanggal Dibuat</string>
+    <string name="sort_modified_date">Urutkan berdasarkan Tanggal Diubah</string>
+
+
+    <!-- ===================== -->
+    <!-- SETTINGS MENU -->
+    <!-- ===================== -->
+    <string name="menu_settings">Pengaturan</string>
+
+    <string name="menu_recycle_bin">Tempat Sampah</string>
+    <string name="menu_recycle_bin_desc">Kelola tugas yang dihapus</string>
+
+    <string name="menu_about">Tentang</string>
+    <string name="menu_about_desc">Informasi aplikasi</string>
+
+
+    <!-- ===================== -->
+    <!-- RECYCLE BIN -->
+    <!-- ===================== -->
+    <string name="btn_empty_recycle_bin">Kosongkan Tempat Sampah</string>
+
+    </resources>
+

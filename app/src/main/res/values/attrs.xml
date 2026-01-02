@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Background Colors -->
+    <attr name="listBackground" format="color" />
+    <attr name="headerBackground" format="color" />
+
+    <!-- Icon Colors -->
+    <attr name="ic_editcolor" format="color"/>
+    <attr name="ic_deletecolor" format="color"/>
+    <attr name="iconTintColor" format="color"/>
+
+    <!-- Date & Time Picker Colors -->
+    <attr name="datePickerHeaderBg" format="color"/>
+    <attr name="datePickerAccent" format="color"/>
+    <attr name="datePickerButtonText" format="color"/>
+    <attr name="timePickerHeaderBg" format="color"/>
+    <attr name="timePickerAccent" format="color"/>
+    <attr name="timePickerButtonText" format="color"/>
+
+    <!-- UI Element Colors -->
+    <attr name="dropdownBackground" format="color"/>
+    <attr name="dropdownTextColor" format="color"/>
+    <attr name="navigationActiveColor" format="color"/>
+    <attr name="navigationInactiveColor" format="color"/>
+    <attr name="navigationActiveTextColor" format="color"/>
+    <attr name="navigationInactiveTextColor" format="color"/>
+    <attr name="searchFieldBackground" format="color"/>
+    <attr name="searchFieldTextColor" format="color"/>
+    <attr name="searchFieldHintColor" format="color"/>
+    <attr name="searchFieldIconTint" format="color"/>
+    <attr name="taskCardBackground" format="color"/>
+    <attr name="fabIconColor" format="color"/>
+    <attr name="fabBackgroundColor" format="color"/>
+    <attr name="buttonPrimaryColor" format="color"/>
+    <attr name="buttonSecondaryColor" format="color"/>
+    <attr name="recycleBinRestoreColor" format="color"/>
+    <attr name="recycleBinDeleteColor" format="color"/>
+    <attr name="emptyStateTextColor" format="color"/>
+
+    <!-- NEW: Settings Colors -->
+    <attr name="settingsMenuBackground" format="color"/>
+    <attr name="settingsMenuTextColor" format="color"/>
+    <attr name="settingsMenuIconTint" format="color"/>
+    <attr name="settingsItemBackground" format="color"/>
+    <attr name="settingsItemTextColor" format="color"/>
+    <attr name="settingsDividerColor" format="color"/>
+</resources>

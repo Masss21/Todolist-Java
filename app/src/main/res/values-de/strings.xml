@@ -1,6 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- App -->
     <string name="app_name">ToDoList</string>
+    <string name="hello">Hallo</string>
     <string name="hello_localized">Hallo</string>
-    <string name="country_name">Deutschland</string>
+    <string name="country_name">Vereinigte Staaten</string>
+
+    <!-- Dialog Titles -->
+    <string name="dialog_add_title">Neue Aufgabe Hinzufügen</string>
+    <string name="dialog_edit_title">Aufgabe Bearbeiten</string>
+
+    <!-- Buttons -->
+    <string name="btn_save">Speichern</string>
+    <string name="btn_update">Aktualisieren</string>
+    <string name="btn_cancel">Abbrechen</string>
+
+    <!-- Input Hints -->
+    <string name="hint_title">Aufgabentitel</string>
+    <string name="hint_description">Beschreibung</string>
+
+    <!-- Date & Time -->
+    <string name="label_due_date">Fälligkeitsdatum</string>
+    <string name="btn_pick_date">Datum und Uhrzeit Wählen</string>
+
+    <!-- Status -->
+    <string name="label_status">Status</string>
+    <string name="status_todo">Zu Erledigen</string>
+    <string name="status_progress">In Bearbeitung</string>
+    <string name="status_complete">Abgeschlossen</string>
+
+    <string name="no_date">Kein Datum ausgewählt</string>
+    <string name="pick_date">Datum auswählen</string>
+
+    <!-- Empty states -->
+    <string name="empty_tasks">Keine Aufgaben.\nTippe auf + um eine hinzuzufügen!</string>
+    <string name="empty_recycle_bin">Papierkorb ist leer</string>
+
+    <!-- Search -->
+    <string name="search_hint">Aufgaben suchen...</string>
+
+    <string name="hint_new_task">Neue Aufgabe Hinzufügen</string>
+
+    <!-- ===================== -->
+    <!-- SORT DROPDOWN (RECYCLE BIN) -->
+    <!-- ===================== -->
+    <string name="sort_default">Standard</string>
+    <string name="sort_az">Sortieren nach A-Z</string>
+    <string name="sort_za">Sortieren nach Z-A</string>
+    <string name="sort_created_date">Nach Erstellungsdatum sortieren</string>
+    <string name="sort_modified_date">Nach Änderungsdatum sortieren</string>
+
+
+    <!-- ===================== -->
+    <!-- SETTINGS MENU -->
+    <!-- ===================== -->
+    <string name="menu_settings">Einstellungen</string>
+
+    <string name="menu_recycle_bin">Papierkorb</string>
+    <string name="menu_recycle_bin_desc">Gelöschte Aufgaben verwalten</string>
+
+    <string name="menu_about">Über</string>
+    <string name="menu_about_desc">App-Informationen</string>
+
+    <!-- ===================== -->
+    <!-- RECYCLE BIN -->
+    <!-- ===================== -->
+    <string name="btn_empty_recycle_bin">Papierkorb leeren</string>
 </resources>

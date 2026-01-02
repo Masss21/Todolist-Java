@@ -5,6 +5,8 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.content.pm.PackageInfo;
+import android.content.pm.PackageManager;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -20,7 +22,25 @@ public class SplashActivity extends AppCompatActivity {
 
         ImageView ivFlag = findViewById(R.id.ivFlag);
         TextView tvHalo = findViewById(R.id.tvHalo);
+        TextView tvVersion = findViewById(R.id.tvVersion);
 
+        // ===========================
+        // AMBIL VERSI APLIKASI (AMAN)
+        // ===========================
+        try {
+            PackageManager pm = getPackageManager();
+            PackageInfo pi = pm.getPackageInfo(getPackageName(), 0);
+
+            String versionName = pi.versionName;
+            long versionCode =
+                    (android.os.Build.VERSION.SDK_INT >= 28)
+                            ? pi.getLongVersionCode()
+                            : pi.versionCode;
+
+            tvVersion.setText("V " + versionName );
+        } catch (Exception e) {
+            tvVersion.setText("");
+        }
         Locale locale = Locale.getDefault();
         String lang = locale.getLanguage();   // en, fr, it, de
         String country = locale.getCountry(); // US, CA, FR, DE, IT, dll

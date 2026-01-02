@@ -1,6 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- App -->
     <string name="app_name">ToDoList</string>
+    <string name="hello">Bonjour</string>
     <string name="hello_localized">Bonjour</string>
-    <string name="country_name">France</string>
+    <string name="country_name">États-Unis</string>
+
+    <!-- Dialog Titles -->
+    <string name="dialog_add_title">Ajouter une Nouvelle Tâche</string>
+    <string name="dialog_edit_title">Modifier la Tâche</string>
+
+    <!-- Buttons -->
+    <string name="btn_save">Enregistrer</string>
+    <string name="btn_update">Mettre à jour</string>
+    <string name="btn_cancel">Annuler</string>
+
+    <!-- Input Hints -->
+    <string name="hint_title">Titre de la tâche</string>
+    <string name="hint_description">Description</string>
+
+    <!-- Date & Time -->
+    <string name="label_due_date">Date d\'échéance</string>
+    <string name="btn_pick_date">Choisir Date et Heure</string>
+
+    <!-- Status -->
+    <string name="label_status">Statut</string>
+    <string name="status_todo">À Faire</string>
+    <string name="status_progress">En Cours</string>
+    <string name="status_complete">Terminé</string>
+
+    <string name="no_date">Aucune date sélectionnée</string>
+    <string name="pick_date">Choisir Date</string>
+
+    <!-- Empty states -->
+    <string name="empty_tasks">Aucune tâche.\nTouchez + pour en ajouter une !</string>
+    <string name="empty_recycle_bin">La corbeille est vide</string>
+
+    <!-- Search -->
+    <string name="search_hint">Rechercher des tâches...</string>
+
+    <string name="hint_new_task">Ajouter une Nouvelle Tâche</string>
+
+
+    <!-- ===================== -->
+    <!-- SORT DROPDOWN (RECYCLE BIN) -->
+    <!-- ===================== -->
+    <string name="sort_default">Par défaut</string>
+    <string name="sort_az">Trier de A à Z</string>
+    <string name="sort_za">Trier de Z à A</string>
+    <string name="sort_created_date">Trier par date de création</string>
+    <string name="sort_modified_date">Trier par date de modification</string>
+
+    <!-- ===================== -->
+    <!-- SETTINGS MENU -->
+    <!-- ===================== -->
+    <string name="menu_settings">Paramètres</string>
+
+    <string name="menu_recycle_bin">Corbeille</string>
+    <string name="menu_recycle_bin_desc">Gérer les tâches supprimées</string>
+
+    <string name="menu_about">À propos</string>
+    <string name="menu_about_desc">Informations sur l application</string>
+
+    <!-- ===================== -->
+    <!-- RECYCLE BIN -->
+    <!-- ===================== -->
+    <string name="btn_empty_recycle_bin">Vider la corbeille</string>
+
 </resources>

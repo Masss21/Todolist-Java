@@ -1,6 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- App -->
     <string name="app_name">ToDoList</string>
+    <string name="hello">Ciao</string>
     <string name="hello_localized">Ciao</string>
-    <string name="country_name">Italia</string>
+    <string name="country_name">Stati Uniti</string>
+
+    <!-- Dialog Titles -->
+    <string name="dialog_add_title">Aggiungi Nuova Attività</string>
+    <string name="dialog_edit_title">Modifica Attività</string>
+
+    <!-- Buttons -->
+    <string name="btn_save">Salva</string>
+    <string name="btn_update">Aggiorna</string>
+    <string name="btn_cancel">Annulla</string>
+
+    <!-- Input Hints -->
+    <string name="hint_title">Titolo dell\'attività</string>
+    <string name="hint_description">Descrizione</string>
+
+    <!-- Date & Time -->
+    <string name="label_due_date">Scadenza</string>
+    <string name="btn_pick_date">Scegli Data e Ora</string>
+
+    <!-- Status -->
+    <string name="label_status">Stato</string>
+    <string name="status_todo">Da Fare</string>
+    <string name="status_progress">In Corso</string>
+    <string name="status_complete">Completato</string>
+
+    <string name="no_date">Nessuna data selezionata</string>
+    <string name="pick_date">Scegli Data</string>
+
+    <!-- Empty states -->
+    <string name="empty_tasks">Nessuna attività.\nTocca + per aggiungerne una!</string>
+    <string name="empty_recycle_bin">Il cestino è vuoto</string>
+
+    <!-- Search -->
+    <string name="search_hint">Cerca attivita...</string>
+
+    <string name="hint_new_task">Aggiungi Nuova Attività</string>
+
+    <!-- ===================== -->
+    <!-- SORT DROPDOWN (RECYCLE BIN) -->
+    <!-- ===================== -->
+    <string name="sort_default">Predefinito</string>
+    <string name="sort_az">Ordina per A-Z</string>
+    <string name="sort_za">Ordina per Z-A</string>
+    <string name="sort_created_date">Ordina per data di creazione</string>
+    <string name="sort_modified_date">Ordina per data di modifica</string>
+
+
+    <!-- ===================== -->
+    <!-- SETTINGS MENU -->
+    <!-- ===================== -->
+    <string name="menu_settings">Impostazioni</string>
+
+    <string name="menu_recycle_bin">Cestino</string>
+    <string name="menu_recycle_bin_desc">Gestisci le attività eliminate</string>
+
+    <!-- ===================== -->
+    <!-- RECYCLE BIN -->
+    <!-- ===================== -->
+    <string name="menu_about">Informazioni</string>
+    <string name="menu_about_desc">Informazioni sull app</string>
+
+    <string name="btn_empty_recycle_bin">Svuota cestino</string>
 </resources>
