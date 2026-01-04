@@ -21,6 +21,7 @@ Tujuan utama proyek ini adalah membangun aplikasi **ToDo List** dengan fitur **C
 | Notifikasi Pengingat | ✅ Selesai |
 | Recycle Bin | ✅ Selesai |
 | Filtering Dropdown Dan Search | ✅ Selesai |
+| Penyesuaian Bahasa | 🔄 Dalam Pengembangan |
 
 ---
 
