@@ -14,11 +14,13 @@ Tujuan utama proyek ini adalah membangun aplikasi **ToDo List** dengan fitur **C
 | Splash Screen dengan bendera & teks “Halo” sesuai bahasa perangkat | ✅ Selesai |
 | Deteksi otomatis bahasa & negara (🇨🇦 🇫🇷 🇮🇹 🇩🇪 🇺🇸) | ✅ Selesai |
 | Navigasi dari splash ke halaman utama | ✅ Selesai |
-| Halaman utama (daftar tugas) | 🔄 Dalam Pengembangan |
-| CRUD Tugas (Tambah, Edit, Hapus, Tandai Selesai) | ⏳ Belum |
-| Penyimpanan Lokal (Room / SQLite) | ⏳ Belum |
-| Tema Gelap & Terang | ⏳ Belum |
-| Notifikasi Pengingat | ⏳ Belum |
+| Halaman utama Todo, In Progress Dan Complete(daftar tugas) | ✅ Selesai |
+| CRUD Tugas (Tambah, Edit, Hapus, Tandai Selesai) | ✅ Selesai |
+| Penyimpanan Lokal (Room / SQLite) | ✅ Selesai |
+| Tema Gelap & Terang | ✅ Selesai |
+| Notifikasi Pengingat | ✅ Selesai |
+| Recycle Bin | ✅ Selesai |
+| Filtering Dropdown Dan Search | ✅ Selesai |
 
 ---
 
@@ -96,11 +98,5 @@ app/
 ## 🔮 Rencana Pengembangan Berikutnya
 
 - [ ] Halaman utama dengan daftar tugas (RecyclerView Grid 2 kolom)
-- [ ] Fitur Tambah / Ubah / Hapus tugas
-- [ ] Penyimpanan menggunakan **Room Database**
-- [ ] Filter tugas berdasarkan status (aktif / selesai)
-- [ ] Animasi transisi antar halaman
-- [ ] Penyesuaian bahasa otomatis di seluruh aplikasi
-- [ ] Mode **gelap & terang** dinamis
-- [ ] Notifikasi pengingat harian
+- [ ] Penyesuaian ke-5 bahasa dengan sempurna
 
